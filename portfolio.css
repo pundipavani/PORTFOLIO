@@ -1,0 +1,85 @@
+body{
+    background-color: #e7fafc;padding: 20px;px;
+}
+h1{
+    text-align: center;font-size: 50px;transition: all 0.5s ease;
+}
+p{
+    text-align: center;font-size: 25px;
+}
+nav{
+    text-align: center;
+}
+nav a{
+     padding: 5px; font-weight: bold;
+    border-radius: 10px;text-decoration: none; margin-left: 20PX; color:blueviolet
+}  
+nav a:hover{
+background-color: blueviolet; color: white;
+}
+section{
+    background-color:  white; width: 800px;
+    margin: 30px auto; border-radius: 10px;
+    padding:20px auto; box-shadow: 0 5px 13px black;
+}
+hr{
+    margin:30px auto; width: 800px;border: 2px solid black;
+}
+figure{
+    text-align: center; 
+}
+figure:hover{
+     box-shadow: teal;
+}
+figure img{
+    border-radius: 50%;border:3px solid orange;
+}
+figcaption{
+    font-size: 25px;
+}
+section ul{
+    text-align: center;
+}
+section h2{
+    border-bottom: 2px solid blue;padding-bottom: 10px;
+}
+article{
+    background-color:#e7fafc; padding: 20px;margin: 20px;border-left: 4px blue solid;
+    border-radius: 10px;transition: all 1s ease;
+}
+h3{
+    font-size: 35px;
+}
+summary{
+    font-size: 30px;
+}
+li{
+    background-color: #e7fafc;margin-bottom: 10px;
+    padding: 10px;font-size: 25px; text-align: left;
+}
+ul,ol{
+    list-style-type: none;
+}
+form{
+    text-align: center;
+}
+input,textarea{
+    width: 90%; margin: 10px;
+}
+button{
+    background-color: rgb(112, 112, 227); color: white; padding: 10px;
+    margin-right: 25px ; border-radius: 10px;
+}
+button:hover{
+   background-color: blueviolet;color: white;
+}
+a{
+    text-decoration: none;
+}
+h1:hover{
+    text-decoration: underline;
+    transform: scale(1.5);
+}
+article:hover{
+    transform: translatey(10px);
+}                                                                   
